@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Additional packages in the ISO
-PKGS="bzip2 cryptsetup curl dialog ddrescue gnupg2 git gptfdisk gzip efibootmgr lvm2 makepasswd mdadm mosh nano p7zip rsync wget emacs unzip xz zip usb-modeswitch ModemManager mobile-broadband-provider-info"
+PKGS="bzip2 cryptsetup curl dialog ddrescue gnupg2 git gptfdisk gzip efibootmgr lvm2 makepasswd mdadm mosh nano p7zip rsync wget emacs unzip xz zip usb-modeswitch ModemManager mobile-broadband-provider-info grub-x86_64-efi xrandr firefox linux-firmware-network"
 
 yes y | xbps-install -Su xbps
 yes y | xbps-install -Su
